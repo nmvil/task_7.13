@@ -1,0 +1,23 @@
+@media screen and (max-width: 375px) {
+	.section {
+		max-width: 375px;
+	}
+	.row {
+		max-width: 375px;
+	}
+	.design, .achievements, .skills {
+		flex-direction: column;
+		max-width: 375px;
+	}
+	h1 {
+		font-size: 2em;
+	}
+	.skill_bar {
+		width: 300px;
+		border-right: 64.47px solid #C4C4C4;
+	}
+	.form {
+		flex-direction: column;
+	}
+
+}
