@@ -12,9 +12,9 @@ html {
 }
 
 .logo_menu, .design {
-    display: inline-flex;
-    flex-direction: row;
-    align-items: center;
+	display: inline-flex;
+	flex-direction: row;
+	align-items: center;
 }
 
 .logo {
@@ -22,18 +22,18 @@ html {
 }
 
 .menu {
-    padding: 0;
-    margin-top: 68px;
+	padding: 0;
+	margin-top: 68px;
 }
 
 .menu li {
-    display: inline-flex;
-    flex-direction: row;
-    list-style-type: none;
-    text-decoration: none;
-    border: 0;
-    outline: none;
-    margin-right: 36px;   
+	display: inline-flex;
+	flex-direction: row;
+	list-style-type: none;
+	text-decoration: none;
+	border: 0;
+	outline: none;
+	margin-right: 36px;   
 }
 
 .row_2 {
@@ -56,6 +56,7 @@ html {
 
 .about_p {
 	margin-top: 50px;
+	margin-bottom: 100px;
 	text-align: center;
 }
 
@@ -73,4 +74,94 @@ html {
 }
 .p_achievements {
 	color: white;
+}
+/*четвертая секция*/
+.skills {
+	display: inline-flex;
+	flex-direction: row;
+	align-items: center;
+}
+.skill_bar {
+	width: 445px;
+	height: 4px;
+	background-color: #34547a;
+	border-right: 95.64px solid #C4C4C4;
+}
+.photo {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+.skills p {
+	line-height: 26px;
+	color: #727272;
+}
+.skills h2 {
+	margin-bottom: 50px;
+}
+/*пятая и восьмая секции*/
+.section_fifth, .section_eighth {
+	background: #EEEFF1;
+	padding: 100px;
+}
+.work, .web {
+	align-items: center;
+	text-align: center;
+}
+.work_text, .web_text {
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.form {
+	display: flex;
+	flex-direction: row;
+	align-items: center;	
+}
+.form_message input {
+	margin-top: 20px;
+	height: 175px;
+}
+.send {
+	text-align: center;
+	margin-top: 50px;
+}
+/*шестая секция*/
+.gallery {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	flex-wrap: wrap;
+
+}
+.gallery img {
+	width: 25%;
+}
+/*седьмая секция*/
+.section_seventh {
+	background: #065190;
+}
+.apple_logo {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.apple_logo img {
+	margin-left: 100px;
+}
+/*девятая секция*/
+.section_nineth {
+	color: #ffffff;
+	background: #065190;
+}
+.footer {
+	display: flex;
+	flex-direction: row;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.footer img {
+	margin-top: 20px;
+	margin-left: 10px;
 }
