@@ -69,6 +69,7 @@ html {
 /*вторая секция*/
 .about {
 	margin-top: 112px;
+	text-align: center;
 }
 
 .about_p {
@@ -83,11 +84,14 @@ html {
 }
 
 .achievements {
-	display: flex;
+	display: inline-flex;
 	flex-direction: row;
 	justify-content: space-around;
 	margin-top: 100px;
 	margin-bottom: 100px;
+}
+.achievements img {
+	width: 100px;
 }
 .p_achievements {
 	color: white;
@@ -106,9 +110,10 @@ html {
 	background-color: #34547a;
 	border-right: 95.64px solid #C4C4C4;
 }
-.photo {
+.photo img {
 	margin-top: 50px;
 	margin-bottom: 50px;
+	width: 555px;
 }
 .skills p {
 	line-height: 26px;
@@ -120,9 +125,9 @@ html {
 /*пятая и восьмая секции*/
 .section_fifth, .section_eighth {
 	background: #EEEFF1;
-	padding: 100px;
 }
 .work, .web {
+	margin-top: 100px;
 	align-items: center;
 	text-align: center;
 }
@@ -143,6 +148,10 @@ html {
 .send {
 	text-align: center;
 	margin-top: 50px;
+	margin-bottom: 100px;
+}
+.video {
+	margin-bottom: 100px;
 }
 /*шестая секция*/
 .gallery {
@@ -168,6 +177,7 @@ html {
 }
 .apple_logo img {
 	margin-left: 100px;
+	width: 100px;
 }
 /*девятая секция*/
 .section_nineth {

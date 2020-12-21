@@ -1,13 +1,20 @@
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 414px) {
 	.section {
-		max-width: 375px;
+		max-width: 414px;
 	}
 	.row {
-		max-width: 375px;
+		max-width: 414px;
 	}
 	.design, .achievements, .skills {
 		flex-direction: column;
-		max-width: 375px;
+		max-width: 414px;
+		align-items: center;
+	}
+	.design .text {
+		margin-top: 30px;
+	}
+	.p_achievements {
+		text-align: center;
 	}
 	h1 {
 		font-size: 2em;
@@ -18,6 +25,21 @@
 	}
 	.form {
 		flex-direction: column;
+	}
+	.photo img {
+		max-width: 300px;
+	}
+	.gallery img {
+		width: 50%;
+	}
+	.apple_logo img {
+		margin-left: 10px;
+		width: 100px;
+	}
+	.footer {
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
 	}
 
 }
